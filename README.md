@@ -1,6 +1,6 @@
 # Ansible Role: RaspiOS
 
-The RaspiOS Ansible role configures raspi-config settings on RaspiOS
+The RaspiOS Ansible role manages raspi-config settings on RaspiOS
 
 ## Availability
 
@@ -12,5 +12,12 @@ Note that the install instructions in this document describe installation of the
 
 ### Requirements
 
+    - Supported hardware:
+        - Raspberry Pi 3
+        - Raspberry Pi 3B+
+        - Raspberry Pi 4
+        - Raspberry Pi 5
+    Supported versions of RaspiOS
+        - bookworm
     - Ansible v2.18+
         - Note: Please submit a documentation issue if you have tested on earlier versions and the documentation will be updated.
