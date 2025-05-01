@@ -12,12 +12,14 @@ Note that the install instructions in this document describe installation of the
 
 ### Requirements
 
-    - Supported hardware:
-        - Raspberry Pi 3
-        - Raspberry Pi 3B+
-        - Raspberry Pi 4
-        - Raspberry Pi 5
-    Supported versions of RaspiOS
-        - bookworm
-    - Ansible v2.18+
-        - Note: Please submit a documentation issue if you have tested on earlier versions and the documentation will be updated.
+> Note: These requirements have been tested. Please submit a documentation issue if you have tested on other versions not listed below.
+
+- Supported hardware:
+    - Raspberry Pi 3
+    - Raspberry Pi 3B+
+    - Raspberry Pi 4
+    - Raspberry Pi 5
+- Supported versions of RaspiOS
+    - bookworm
+    - bookworm-lite
+- Ansible v2.18+
